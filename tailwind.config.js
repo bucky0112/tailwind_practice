@@ -1,14 +1,12 @@
 module.exports = {
   mode: 'jit',
-  purge: [
-    './*.html',
-  ],
-  darkMode: false, // or 'media' or 'class'
+  purge: ['./*.html'],
+  darkMode: 'media', // or 'false' or 'class'
   theme: {
-    extend: {},
+    extend: {}
   },
   variants: {
-    extend: {},
+    extend: {}
   },
-  plugins: [],
+  plugins: []
 }

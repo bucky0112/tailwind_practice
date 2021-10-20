@@ -1,4 +1,8 @@
 {
+  "scripts": {
+    "watch": "tailwindcss -i src/tailwind.css -o style.css --watch",
+    "minify": "tailwindcss -i src/tailwind.css -o style.css --minify"
+  },
   "dependencies": {
     "autoprefixer": "^10.3.7",
     "postcss": "^8.3.9",
